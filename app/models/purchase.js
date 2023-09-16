@@ -15,10 +15,4 @@ const Purchase = sequelize.define('Purchase', {
 Purchase.belongsTo(User, { foreignKey: 'userId' });
 Purchase.belongsTo(Product, { foreignKey: 'productId' });
 
-// User.hasMany(Purchase);
-// Purchase.belongsTo(User);
-
-// Product.hasMany(Purchase);
-// Purchase.belongsTo(Product);
-
 module.exports = Purchase;
