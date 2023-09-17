@@ -19,7 +19,5 @@ router.post('/login', authController.login);
 router.put('/users/:id', authController.updateUser);
 router.delete('/users/:id', authController.deleteUser);
 
-// Add purchase route
-//router.post('/purchase', purchaseController.purchaseProduct);
 
 module.exports = router;
